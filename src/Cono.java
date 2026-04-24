@@ -53,7 +53,7 @@ public class Cono {
 
     /**
      * Calcula el área de la base del cono (pi * r^2).
-     * * @return El área de la base en formato float
+     * * @return El área de la base en formato float.
      */
     public float calcularAreaBase() {
         return (float) (Math.PI * (this.radioBase * this.radioBase));
@@ -61,7 +61,7 @@ public class Cono {
 
     /**
      * Calcula el volumen del cono ((AreaBase * altura) / 3).
-     * * @return El volumen del cono en formato float
+     * * @return El volumen del cono en formato float.
      */
     public float calcularVolumen() {
         return (calcularAreaBase() * this.altura) / 3;

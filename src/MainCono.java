@@ -49,8 +49,8 @@ public class MainCono {
     /**
      * Metodo a prueba de balas para solicitar un valor numérico al usuario.
      * Evita que el programa se cuelgue si el usuario introduce una letra.
-     * * @param mensaje El texto que se muestra al usuario para pedir el dato
-     * @return El valor float introducido correctamente
+     * * @param mensaje El texto que se muestra al usuario para pedir el dato.
+     * @return El valor float introducido correctamente.
      */
     public static float solicitarValorSeguro(String mensaje) {
         Scanner scanner = new Scanner(System.in);
