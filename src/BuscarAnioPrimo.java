@@ -56,6 +56,7 @@ public class BuscarAnioPrimo {
             System.out.println("que es un año par");
         }
 
+
         // Combinamos las dos expresiones condicionales en una sola con &&
         if (anioPrimo > 2008 && anioPrimo < 2033) {
             System.out.println("y está comprendido entre 2008 y 2033");
