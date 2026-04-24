@@ -51,7 +51,7 @@ public class BuscarAnioPrimo {
     public static void mostrarResultados(int anioPrimo) {
         System.out.println("El primer año primo encontrado es " + anioPrimo);
 
-        // Simplificación de condicionales
+        // Simplificación de condicionales.
         if (anioPrimo % 2 == 0) {
             System.out.println("que es un año par");
         }
