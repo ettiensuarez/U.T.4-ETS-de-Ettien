@@ -38,7 +38,7 @@ public class BuscarAnioPrimo {
         for (int i = numero - 1; i > 1; i--) {
             if (numero % i == 0) {
                 esPrimo = false;
-                break; // Optimizamos saliendo del bucle en cuanto sabemos que no es primo
+                break; // Optimizamos saliendo del bucle en cuanto sabemos que no es primo.
             }
         }
         return esPrimo;
