@@ -2,7 +2,7 @@ import java.util.Scanner;
 
 /**
  * Clase que calcula y muestra el primer año primo a partir del 2008.
- * * @author Ettien Suárez Ramírez
+ * * @author Ettien Suárez Ramírez.
  * @version 1.0
  */
 public class BuscarAnioPrimo {
